@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MySecondApp</string>
+    <string name="hello">Hello!!!</string>
+    <string name="string_poem">How are you?</string>
+    <string name="string_save">Fine, fanks!</string>
+    <string name="next_activity_button">PUSH</string>
+    <string name="bye">Bye!!!</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hellodefault">helloDefault</string>
 </resources>

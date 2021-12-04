@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.MySecondApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">#CDDC39</item>
+        <item name="colorPrimaryVariant">@color/purple_200</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -12,5 +12,34 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/Theme.MySecondApp.TextViewHead</item>
     </style>
+
+    <style name="Theme.MySecondApp.TextViewActivity">
+        <item name="android:background">#CFC779</item>
+    </style>
+
+    <style name="Theme.MySecondApp.TextViewHead" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/myColorButton</item>
+
+    </style>
+
+    <style name="Theme.MySecondApp.Button" parent="Theme.MySecondApp.TextViewHead">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Theme.MySecondApp.TextViewFooter" parent="Theme.MySecondApp.TextViewHead">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Theme.MySecondApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MySecondApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MySecondApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
