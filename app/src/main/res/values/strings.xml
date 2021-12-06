@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Книги</string>
+    <string name="next_activity_button">Услуги</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="info_fragment">Мы находимся по адресу: г. Москва, ул. Юбилейная, д.3</string>
+    <string name="fragment_1">Главная</string>
+    <string name="fragment_2">О нас</string>
+    <string name="fragment_3">Услуги</string>
+</resources>
