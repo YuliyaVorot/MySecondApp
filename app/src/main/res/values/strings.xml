@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppChangeFragment</string>
+
+    <string name="FirstFragment">Hello, I first fragment</string>
+    <string name="fragment_start" />
+    <string name="fragment_second" />
+    <string name="SecondFragment">Hello, I second fragment</string>
+    <string name="FirstFragmentText" />
+</resources>
